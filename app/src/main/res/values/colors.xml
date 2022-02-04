@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#222</color>
+    <color name="white">#fff</color>
+
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#ff9800</color>
+    <color name="colorAccentDark">#c66900</color>
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#757575</color>
+    <color name="white_color">#FFFFFF</color>
+
+    <!-- Estilos predefinidos-->
+    <color name="button_background_color">#FF9800</color>
+    <color name="circular_image_border_color">#ccc</color>
+    <color name="item_happy_place_description_text_color">#ccc</color>
+    <color name="img_borde">#ccc</color>
+
+
+</resources>

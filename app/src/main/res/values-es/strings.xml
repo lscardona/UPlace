@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UPlace - Inicio</string>
+    <string name="edit_text_hint_title">Título</string>
+    <string name="edit_text_hint_description">Descripción</string>
+    <string name="edit_text_hint_date">Fecha</string>
+    <string name="edit_text_hint_location">Ubicación</string>
+    <string name="text_add_image">AGREGAR IMAGEN</string>
+    <string name="btn_text_save">GUARDAR</string>
+    <string name="note_text_no_places">No se encontraron lugares, por favor agrega uno.</string>
+    <string name="image_content_description">imagen</string>
+    <string name="google_maps_key">AIzaSyCHJYjyX0FZIzDzI31ZaL4OkMMfDG-tY-w</string>
+    <string name="hello_blank_fragment">Hola Fragmento En Blanco</string>
+</resources>

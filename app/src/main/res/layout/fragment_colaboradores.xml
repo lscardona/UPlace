@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    tools:context=".utils.FragmentColaboradores">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colaboradores Del Proyecto"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_place_cv_main_marginStartEnd"
+        android:layout_marginEnd="@dimen/item_place_cv_main_marginStartEnd"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/item_place_cv_corner_radius"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/item_places_content_padding">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/id_person1_img"
+                android:layout_width="@dimen/item_place_circular_image_size"
+                android:layout_height="@dimen/item_place_circular_image_size"
+                android:contentDescription="@string/image_content_description"
+                android:src="@drawable/ic_person_24"
+                app:civ_border_color="@color/circular_image_border_color"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/item_place_ll_marginStart"
+                android:layout_marginEnd="@dimen/item_place_ll_marginEnd"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_person1_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Juan Carlos Cruz"
+                    android:textColor="@color/primary_text_color"
+                    android:textSize="@dimen/item_place_title_textSize"
+                    android:textStyle="bold"
+                    tools:text="Juan Carlos Cruz" />
+
+                <TextView
+                    android:id="@+id/tv_person1_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Est. Ingeniería Electrónica y Telecomunicaciones"
+                    android:textColor="@color/item_happy_place_description_text_color"
+                    android:textSize="@dimen/item_place_description_textSize"
+                    tools:text="Est. Ingeniería Electrónica y Telecomunicaciones" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_place_cv_main_marginStartEnd"
+        android:layout_marginEnd="@dimen/item_place_cv_main_marginStartEnd"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/item_place_cv_corner_radius"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/item_places_content_padding">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/id_person2_img"
+                android:layout_width="@dimen/item_place_circular_image_size"
+                android:layout_height="@dimen/item_place_circular_image_size"
+                android:contentDescription="@string/image_content_description"
+                android:src="@drawable/ic_person_24"
+                app:civ_border_color="@color/circular_image_border_color">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/item_place_ll_marginStart"
+                android:layout_marginEnd="@dimen/item_place_ll_marginEnd"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_person2_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lina Sofía Cardona"
+                    android:textColor="@color/primary_text_color"
+                    android:textSize="@dimen/item_place_title_textSize"
+                    android:textStyle="bold"
+                    tools:text="Lina Sofía Cardona" />
+
+                <TextView
+                    android:id="@+id/tv_person2_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Est. Ingeniería Electrónica y Telecomunicaciones"
+                    android:textColor="@color/item_happy_place_description_text_color"
+                    android:textSize="@dimen/item_place_description_textSize"
+                    tools:text="Est. Ingeniería Electrónica y Telecomunicaciones" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_place_cv_main_marginStartEnd"
+        android:layout_marginEnd="@dimen/item_place_cv_main_marginStartEnd"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/item_place_cv_corner_radius"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/item_places_content_padding">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/id_person3_img"
+                android:layout_width="@dimen/item_place_circular_image_size"
+                android:layout_height="@dimen/item_place_circular_image_size"
+                android:contentDescription="@string/image_content_description"
+                android:src="@drawable/ic_person_24"
+                app:civ_border_color="@color/circular_image_border_color">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/item_place_ll_marginStart"
+                android:layout_marginEnd="@dimen/item_place_ll_marginEnd"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_person3_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Erika Valencia Arango"
+                    android:textColor="@color/primary_text_color"
+                    android:textSize="@dimen/item_place_title_textSize"
+                    android:textStyle="bold"
+                    tools:text="Erika Valencia Arango" />
+
+                <TextView
+                    android:id="@+id/tv_person3_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Est. Ingeniería Electrónica y Telecomunicaciones"
+                    android:textColor="@color/item_happy_place_description_text_color"
+                    android:textSize="@dimen/item_place_description_textSize"
+                    tools:text="Est. Ingeniería Electrónica y Telecomunicaciones" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electtiva Desarrollo De Aplicaciones Móviles 2021-2"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
